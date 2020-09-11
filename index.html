@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta charset="utf=8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="./assets/css/main.css">
+    
+    <title>Portfolio Dev|Jr - Everton </title>
+</head>
+
+<body>
+    <div class="header">
+        <a href="#default" class = "logo">Everton</a>
+        <div class="header-right">
+            <a href="#projetos">Projetos</a>
+            <a href="#sobremim">Sobre Mim</a>
+            <a href="#contato">Contato</a>
+        </div>
+    </div>
+
+    <div class="eu">
+        <img class="perfil" src="./assets/imgs/perfil.jpg">
+        <h1>OI, SOU EVERTON!</h1>
+        <p>Estudante de Ciência da Computação</p>
+        <p>Dev Web | Android Junior</p>
+        <p> <\-------------------------------------------------------------------------------------------------------></p>
+    </div>
+
+    <div id="projetos" class="projetos">
+        <h2><strong><\Aqui apresento alguns de meus projetos></strong></h2>
+        <hr>
+        <div class="tradutor">
+            <strong><a>Tradutor automático de HQ's</a></strong>
+            <p>Python | OpenCV | Tesseract OCR | API GoogleTrans</p>
+            <img class="imgs-port"src="./assets/imgs/PAGE TRANSLATE.png">
+            <p>Já imaginou ter uma HQ em <b>QUALQUER IDIOMA</b> e poder traduzir capitulos inteiros em apenas <b>UMA</b> 
+            compilação?<br>No meu projeto é possível.</p> 
+            </p>
+            
+            <p><b>Guia para compilar e traduzir a HQ:</b></p>
+
+            <a href="https://github.com/vaieverton/Comic-Book-Translator" target="blank">Clonar o código/repositório disponível no github</a>
+
+            <p>pip install opencv-python</p>
+            <p>pip install numpy</p>
+            <p>pip install unidecode</p>
+            <p>pip install tesseract</p>
+            <p>pip install googletrans</p>
+            <p>Instalar o Tesseract OCR na sua máquina:</p>
+
+            <a href="https://www.youtube.com/watch?v=CSpNDgOPJiM" target="blank">Linux | </a>
+            <a href="https://www.youtube.com/watch?v=Rb93uLXiTwA" target="blank">Windows</a>
+
+            <p>Criar uma pasta contendo as páginas da HQ em formato .png ou .jpg,<br>
+            formatas no seguinte formato: "nome_da_hq_{`NUMERO DA PAGE´}" (1,2,3,4...n)
+            </p>
+
+            <p>Na linha 43 do código, inserir o numero da ultima página a ser traduzida</p>
+
+            <p>Na linha 48 do código, altere o caminho até suas imagens:<br>
+                img = cv.imread('/caminho/nome_hq_page_'+num+'.jpg')
+            </p>
+
+            <p>Execute o programa e aguarde até que todas as páginas sejam finalizadas</p>
+            <br>
+            <p> Demonstração:</p>
+
+            <iframe width="840" height="460" src="https://www.youtube.com/embed/ra6iSO2rQ68">
+            </iframe>
+        </div>
+
+        <hr>
+
+        <div class="tradutor">
+            <strong><a>Site da VacineHome|Manaus</a></strong>
+            <p>NODE | HTML | CSS | JavaScript | SQL </p>
+
+            <a href="" target="blank">
+                <button>
+                    ADICIONAR PATINHA AQUI PARA FICAR MAIS BONITO
+                    Acessar Site
+                </button>
+            </a>
+
+            <p>Com a VacineHome - Manaus, é possível vacinar seu pet sem a necessidade de sair de casa.<br>
+            Entre no site, registre seu caso, e em poucos instantes, entraremos em contato com você<br>
+            com todos os procedimentos necessários.</p> 
+            </p>
+            
+        </div>
+
+        <hr>
+        
+    </div>
+    </div>
+
+    <div class="sobre" id="sobremim" style="text-align: center;">
+        <h2><\Sobre Mim ></h2>
+        <p>Estudante de Ciência da Computação<br>
+        Entusiasta de programação<br>
+        Programador Web Junior</p>
+
+        <p>Estou sempre a procura de novas oportunidades para desenvolver meus conhecimentos em programação</p>
+    </div>
+    
+    <hr>
+
+    <div class="contato" id="contato" style="text-align: center; background-color: darkslateblue;">
+        <h2><\Contato ></h2>
+        <strong><p>Email:</p></strong><p>everton.souza@icomp.ufam.edu.br</p>
+        <strong><p>Celular | WhatsApp:</p></strong><p>(92) 98477-0833</p>
+        <p>Ouuuu, se preferir, pode me mandar sua duvida por aqui mesmo:</p>
+        <div class="formulario">
+            <form>
+                <label for="nome">Nome:</label><br>
+                <input type="text" id="nome"><br>
+                <label for="telefone">Seu telefone:</label><br>
+                <input type="text">
+            </form>
+        </div>
+    </div>
+
+    <div class="rodape" style="text-align: center;">
+        <a>Projetos</a>
+        <a>Sobre Mim</a>
+        <a>Contato</a>
+    </div>
+</body>
+<html>
